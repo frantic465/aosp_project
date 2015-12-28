@@ -5434,33 +5434,40 @@ SOURCES += \
     $${ROOT_DIR}/frameworks/native/libs/binder/ProcessState.cpp \
     $${ROOT_DIR}/frameworks/native/libs/binder/Static.cpp \
     $${ROOT_DIR}/frameworks/native/libs/binder/TextOutput.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/BitTube.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/BufferItemConsumer.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/BufferQueue.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/ConsumerBase.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/CpuConsumer.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/DisplayEventReceiver.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/GLConsumer.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/GraphicBufferAlloc.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/GuiConfig.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/IConsumerListener.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/IDisplayEventConnection.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/IGraphicBufferAlloc.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/IGraphicBufferConsumer.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/IGraphicBufferProducer.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/ISensorEventConnection.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/ISensorServer.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/ISurfaceComposer.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/ISurfaceComposerClient.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/LayerState.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/Sensor.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/SensorEventQueue.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/SensorManager.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/Surface.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/SurfaceComposerClient.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/SurfaceControl.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/SyncFeatures.cpp \
-    $${ROOT_DIR}/frameworks/native/libs/gui/tests/BufferQueue_test.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/BitTube.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/BufferItem.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/BufferItemConsumer.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/BufferQueue.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/BufferQueueConsumer.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/BufferQueueCore.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/BufferQueueProducer.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/BufferSlot.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/ConsumerBase.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/CpuConsumer.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/DisplayEventReceiver.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/GLConsumer.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/GraphicBufferAlloc.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/GuiConfig.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/IConsumerListener.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/IDisplayEventConnection.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/IGraphicBufferAlloc.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/IGraphicBufferConsumer.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/IGraphicBufferProducer.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/IProducerListener.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/ISensorEventConnection.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/ISensorServer.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/ISurfaceComposer.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/ISurfaceComposerClient.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/LayerState.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/Sensor.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/SensorEventQueue.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/SensorManager.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/StreamSplitter.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/Surface.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/SurfaceComposerClient.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/SurfaceControl.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/SyncFeatures.cpp \
+	$${ROOT_DIR}/frameworks/native/libs/gui/tests/BufferQueue_test.cpp \
     $${ROOT_DIR}/frameworks/native/libs/gui/tests/CpuConsumer_test.cpp \
     $${ROOT_DIR}/frameworks/native/libs/gui/tests/SurfaceTextureClient_test.cpp \
     $${ROOT_DIR}/frameworks/native/libs/gui/tests/SurfaceTexture_test.cpp \
