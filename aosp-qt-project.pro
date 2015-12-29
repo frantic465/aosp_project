@@ -360,6 +360,7 @@ INCLUDEPATH += $${ROOT_DIR}/system/security/keystore-engine
 INCLUDEPATH += $${ROOT_DIR}/system/security/keystore/include
 INCLUDEPATH += $${ROOT_DIR}/system/security/softkeymaster/include
 INCLUDEPATH += $${ROOT_DIR}/system/vold
+INCLUDEPATH += $${ROOT_DIR}/hardware/libhardware/include/
 
 HEADERS += \
     $${ROOT_DIR}/abi/cpp/include/cxxabi.h \
@@ -3957,7 +3958,62 @@ HEADERS += \
     $${ROOT_DIR}/system/vold/Xwarp.h \
     $${ROOT_DIR}/system/vold/cryptfs.h \
     $${ROOT_DIR}/system/vold/fstrim.h \
-    $${ROOT_DIR}/system/vold/hash.h
+    $${ROOT_DIR}/system/vold/hash.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/activity_recognition.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/audio_alsaops.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/audio_effect.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/audio_policy.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/audio.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bluetooth.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_av.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_common_types.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_gatt_client.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_gatt_server.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_gatt_types.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_gatt.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_hf_client.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_hf.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_hh.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_hl.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_mce.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_pan.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_rc.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_sdp.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/bt_sock.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/camera_common.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/camera.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/camera2.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/camera3.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/consumerir.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/fb.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/fingerprint.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/fused_location.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/gatekeeper.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/gps.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/gralloc.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/hardware.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/hdmi_cec.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/hw_auth_token.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/hwcomposer_defs.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/hwcomposer.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/input.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/keymaster_common.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/keymaster_defs.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/keymaster0.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/keymaster1.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/lights.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/local_time_hal.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/memtrack.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/nfc_tag.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/nfc.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/power.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/qemu_pipe.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/qemud.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/radio.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/sensors.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/sound_trigger.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/tv_input.h \
+    $${ROOT_DIR}/hardware/libhardware/include/hardware/vibrator.h
 
 SOURCES += \
     $${ROOT_DIR}/bionic/libc/bionic/__fgets_chk.cpp \
