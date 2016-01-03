@@ -1,3 +1,4 @@
+
 QT -= core gui
 TARGET = android
 TEMPLATE = app
@@ -5747,6 +5748,7 @@ HEADERS += $${ROOT_DIR}/hardware/ti/omap4xxx/security/tf_sdk/include/tee_client_
 HEADERS += $${ROOT_DIR}/hardware/ti/omap4xxx/security/tf_sdk/include/tee_client_api_ex.h
 HEADERS += $${ROOT_DIR}/hardware/ti/omap4xxx/security/tf_sdk/include/tee_client_api_imp.h
 HEADERS += $${ROOT_DIR}/hardware/ti/omap4xxx/test/CameraHal/camera_test.h
+HEADERS += $${ROOT_DIR}/packages/apps/AospBuddy/jni/GlHelper.h
 HEADERS += $${ROOT_DIR}/packages/apps/AospBuddy/jni/GlView.h
 HEADERS += $${ROOT_DIR}/packages/apps/AospBuddy/jni/com_frantic465_buddy_GlView.h
 HEADERS += $${ROOT_DIR}/packages/apps/Bluetooth/jni/com_android_bluetooth.h
@@ -12764,6 +12766,7 @@ SOURCES += $${ROOT_DIR}/hardware/ti/omap4xxx/security/tf_daemon/smc_properties.c
 SOURCES += $${ROOT_DIR}/hardware/ti/omap4xxx/security/tf_daemon/smc_properties_parser.c
 SOURCES += $${ROOT_DIR}/hardware/ti/omap4xxx/test/CameraHal/camera_test_menu.cpp
 SOURCES += $${ROOT_DIR}/hardware/ti/omap4xxx/test/CameraHal/camera_test_script.cpp
+SOURCES += $${ROOT_DIR}/packages/apps/AospBuddy/jni/GlHelper.cpp
 SOURCES += $${ROOT_DIR}/packages/apps/AospBuddy/jni/GlView.cpp
 SOURCES += $${ROOT_DIR}/packages/apps/AospBuddy/jni/com_frantic465_buddy_GlView.cpp
 SOURCES += $${ROOT_DIR}/packages/apps/AospBuddy/jni/jni_init.cpp
